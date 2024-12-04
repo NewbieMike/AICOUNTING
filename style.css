@@ -180,7 +180,7 @@ section {
   background-color: #fff;
 }
 .home_circle {
-  bottom: 0px;
+  bottom: -50px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
