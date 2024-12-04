@@ -5,7 +5,7 @@ body {
   font-family: "Roboto", serif;
 }
 footer {
-  background-color: #212b3b;
+  background-color: #27556c;
   color: #fff;
   height: 60px;
   margin-top: 10px;
@@ -201,16 +201,17 @@ section {
 /* MISSION */
 
 .mission_description {
-  font-size: 20px;
+  font-size: 24px;
   flex: 1;
 }
 .mission_points {
   flex: 1;
+  font-size: 26px;
 }
 
 /* SLOGAN */
 .section_slogan {
-  background-color: #212b3b;
+  background-color: #27556c;
   height: 400px;
 }
 .slogan_container {
@@ -227,7 +228,7 @@ section {
   text-transform: uppercase;
 }
 .yellow_letter {
-  color: #f3b81f;
+  color: #ffc107;
   font-size: 95px;
 }
 /* SERVICES */
