@@ -1,13 +1,13 @@
-/* yellow - #27556c */
-/* AICOUTING - #27556c */
+/* yellow - #17284a */
+/* AICOUTING - #17284a */
 /* GENERAL */
 body {
   font-family: "Roboto", serif;
 }
 footer {
-  background-color: #27556c;
+  background-color: #17284a;
   color: #fff;
-  height: 60px;
+  /* height: 60px; */
   margin-top: 10px;
 }
 .section_title h2 {
@@ -24,7 +24,7 @@ footer {
   left: 0;
   width: 180px;
   height: 3px;
-  background-color: #27556c;
+  background-color: #17284a;
   content: "";
   transform: translateX(-50%, -50%);
 }
@@ -34,7 +34,7 @@ footer {
   left: 0;
   width: 3px;
   height: 30px;
-  background-color: #27556c;
+  background-color: #17284a;
   content: "";
   transform: translateX(-50%, -50%);
 }
@@ -64,10 +64,10 @@ section {
   padding: 0px 10px;
 }
 .navbar-collapse .nav-link.active {
-  color: #27556c;
+  color: #add25f;
 }
-.navbar-collapse .nav-link:hover {
-  color: #27556c;
+.nav-link:hover {
+  color: #add25f;
 }
 .nav-link::after {
   opacity: 0;
@@ -76,7 +76,7 @@ section {
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #27556c;
+  background-color: #add25f;
   content: "";
   transform: translateX(-50%, -50%);
 }
@@ -84,7 +84,7 @@ section {
   opacity: 1;
 }
 .navbar-brand {
-  color: #27556c;
+  color: #add25f;
   font-size: 22px;
   border: 2px solid;
   padding: 5px;
@@ -93,7 +93,7 @@ section {
   color: #fff;
 }
 .navbar-toggler {
-  background-color: #27556c;
+  background-color: #17284a;
 }
 .separate-navbar {
   display: flex;
@@ -109,7 +109,7 @@ section {
 }
 .home_bg {
   /* background-color: #f6b822; */
-  background-color: #27556c;
+  background-color: #17284a;
   position: absolute;
   top: 0;
   left: 0;
@@ -176,7 +176,7 @@ section {
   transition: ease-in-out 0.6s;
 }
 .home_btn:hover {
-  color: #27556c;
+  color: #1f454e;
   background-color: #fff;
 }
 .home_circle {
@@ -211,7 +211,7 @@ section {
 
 /* SLOGAN */
 .section_slogan {
-  background-color: #27556c;
+  background-color: #17284a;
   height: 400px;
 }
 .slogan_container {
@@ -228,7 +228,7 @@ section {
   text-transform: uppercase;
 }
 .yellow_letter {
-  color: #ffc107;
+  color: #add25f;
   font-size: 95px;
 }
 /* SERVICES */
@@ -283,16 +283,65 @@ section {
 .card_filter:hover .card_filter_content_description {
   opacity: 1;
 }
+/* READ MORE */
+.section_articles .card {
+  width: 400px;
+  position: relative;
+  border-radius: 6px;
+  transition: 0.6s ease-in-out;
+  /* flex: 4; */
+}
+.section_articles .card:hover .card-text-readmore {
+  opacity: 1;
+}
+.section_articles .card:hover {
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.35);
+  transition: 0.6s ease-in-out;
+}
+
+.articles_container {
+  flex-wrap: wrap;
+}
+.card-text {
+  font-size: 24px;
+}
+.card-text-readmore {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.6s ease-in-out;
+}
+.card-text-readmore a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #add25f;
+  padding: 20px 40px;
+  border-radius: 20px;
+  background-color: #17284a;
+  border: 4px solid #17284a;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Sometype Mono", serif;
+}
 /* CONTACT */
 .btn_sbmt {
-  background-color: #27556c;
-  border: 4px solid #27556c;
+  background-color: #17284a;
+  border: 4px solid #17284a;
   font-size: 20px;
   text-transform: uppercase;
   font-family: "Sometype Mono", serif;
 }
 .btn_sbmt:hover {
-  border: 4px solid #27556c;
+  border: 4px solid #17284a;
 }
 .contact_flex {
   display: flex;
@@ -325,7 +374,7 @@ label::after {
   left: 0;
   width: 80px;
   height: 2px;
-  background-color: #27556c;
+  background-color: #17284a;
   content: "";
   transform: translateX(-50%, -50%);
 }
@@ -378,7 +427,22 @@ label::after {
   align-items: center;
   height: 100%;
 }
-
+.footer_flex {
+  display: flex;
+  justify-content: space-around;
+}
+.footer_flex .nav-link {
+  text-align: center;
+}
+.navigation_title {
+  text-transform: uppercase;
+  font-size: 28px;
+  text-align: center;
+}
+.footer_img {
+  width: 200px;
+  height: 200px;
+}
 /* MODAL */
 .modal_btn_hide {
   display: none;
